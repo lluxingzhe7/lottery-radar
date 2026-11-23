@@ -1,3 +1,7 @@
+> **已上线**：手机打开 https://lluxingzhe7.github.io/lottery-radar/ （iOS Safari 里「分享 → 添加到主屏幕」可当 App 用）。
+> 投稿入口同页面右上角「＋ 投递」，中奖/参与状态在 issue 里评论 `/中奖 编号` 即可回写台账。
+> 仓库：https://github.com/lluxingzhe7/lottery-radar （public，Pages 免费版要求公开）。
+
 # 抽奖情报台 radar
 
 半自动的小红书 / 抖音送福利台账。**它帮你记、帮你判、帮你盯，最后那一下你自己点。**
