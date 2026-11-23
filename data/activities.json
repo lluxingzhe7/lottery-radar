@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T15:48:32.721Z",
+  "updatedAt": "2026-11-23T15:49:03.783Z",
   "seq": {
     "xhs": 2
   },
@@ -128,7 +128,7 @@
       "author": "测试博主",
       "prize": "蓝牙耳机 x3",
       "deadline": "2026-12-18",
-      "status": "pending",
+      "status": "won",
       "score": 78,
       "level": "可信",
       "hits": [
@@ -201,12 +201,17 @@
       "notes": "",
       "fetch": null,
       "createdAt": "2026-11-23T15:48:32.721Z",
-      "updatedAt": "2026-11-23T15:48:32.721Z",
+      "updatedAt": "2026-11-23T15:49:03.783Z",
       "events": [
         {
           "at": "2026-11-23T15:48:32.721Z",
           "type": "created",
           "detail": "录入"
+        },
+        {
+          "at": "2026-11-23T15:49:03.783Z",
+          "type": "status",
+          "detail": "pending → won"
         }
       ]
     }
