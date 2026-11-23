@@ -95,6 +95,7 @@
       '<article class="card' + ((it.level === '可疑' || it.verdictKey === 'drop') ? ' dim' : '') + (it.status === 'won' || it.status === 'claimed' ? ' won' : '') + '">' +
         '<div class="card-top">' +
           '<span class="badge ' + platClass + '">' + esc(it.platformLabel) + '</span>' +
+          (it.auto ? '<span class="lvl">自动发现</span>' : '') +
           '<span class="lvl ' + lvlClass + '">' + esc(it.level) + ' ' + esc(it.score) + '</span>' +
           verdictChip + statusChip + dl +
         '</div>' +
