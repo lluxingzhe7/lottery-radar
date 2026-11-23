@@ -1,14 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T15:49:03.783Z",
+  "updatedAt": "2026-11-23T15:22:58.504Z",
   "seq": {
-    "xhs": 2
+    "xhs": 1
   },
   "activities": [
     {
       "id": "xhs-20261123-01",
       "sample": true,
-      "url": "https://www.xiaohongshu.com/explore/sample000000000000",
+      "url": "https://www.xiaohongshu.com",
       "platform": "xiaohongshu",
       "kind": "lottery",
       "title": "【示例数据】官方旗舰店抽10位送正装，价值298",
