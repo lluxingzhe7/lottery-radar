@@ -50,10 +50,29 @@ function deadlineLabel(deadline, days) {
   return base + ' · ' + days + ' 天后';
 }
 
+function appUrlFor(a) {
+  const u = String(a.url || '');
+  if (a.platform === 'bilibili') {
+    const m = u.match(/\/video\/(BV[0-9A-Za-z]+)/) || u.match(/\/video\/av(\d+)/);
+    if (m) return 'bilibili://video/' + m[1];
+  }
+  return '';
+}
+
+const rankOf = (status, verdictKey) => {
+  if (status === 'won') return 0;
+  if (status === 'lost' || status === 'claimed' || status === 'skipped') return 3;
+  if (verdictKey === 'drop') return 2;
+  return 1;
+};
+
 const items = (store.activities || []).map((a) => {
   const days = daysTo(a.deadline);
   const hits = (a.hits || []).filter((h) => h.kind === 'veto' || h.kind === 'risk');
+  const verdictKey = a.prizeEval?.verdict?.key || 'judge';
   return {
+    appUrl: appUrlFor(a),
+    sortKey: rankOf(a.status, verdictKey) * 10000 + (days === null ? 9000 : Math.max(-999, Math.min(8999, days))),
     id: a.id,
     url: a.url,
     platform: a.platform,
@@ -83,7 +102,7 @@ const items = (store.activities || []).map((a) => {
           verdict: a.prizeEval.verdict,
         }
       : null,
-    verdictKey: a.prizeEval?.verdict?.key || 'judge',
+    verdictKey,
     sample: !!a.sample,
     source: a.source || 'manual',
     auto: a.source === 'auto',
