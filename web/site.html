@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#f5f6f7" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="{{TITLE}}" />
+<title>{{TITLE}}</title>
+<style>{{CSS}}</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-row">
+    <h1>{{TITLE}}</h1>
+    <a class="post" href="{{NEW_ISSUE}}" target="_blank" rel="noopener">＋ 投递</a>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+<div id="banner">{{BANNER}}</div>
+<div class="search"><input id="q" type="search" placeholder="搜标题 / 博主 / 奖品 / 编号" autocomplete="off" /></div>
+<nav class="filters" id="filters" aria-label="状态筛选"></nav>
+<nav class="filters" id="plats" aria-label="平台筛选"></nav>
+<main id="list" class="list"></main>
+<footer class="foot">
+  <p>数据来自你自己的台账，<a href="{{REPO_URL}}" target="_blank" rel="noopener">仓库在这里</a>。更新于 <span id="built"></span>。</p>
+  <p class="warn-line">中奖只认博主公示或私信。任何要你先付邮费、押金、扫码付款的，都是骗局。</p>
+  <p class="tip">在 GitHub issue 里评论 <code>/中奖 编号</code>、<code>/参与 编号</code> 可以把状态写回台账；本站的勾选只存本机。</p>
+</footer>
+<script type="application/json" id="data">{{DATA}}</script>
+<script>{{JS}}</script>
+</body>
+</html>

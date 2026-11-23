@@ -1,0 +1,37 @@
+name: 每日抽奖提醒
+
+on:
+  schedule:
+    # 每天北京时间 09:00（UTC 01:00）
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 生成提醒
+        env:
+          REPO_OWNER: ${{ github.repository_owner }}
+        run: node scripts/digest-issue.mjs
+      - name: 建提醒 issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ "$(jq -r .hasItems .out/digest.json)" != "true" ]; then
+            echo "今天没什么要提醒的"
+            exit 0
+          fi
+          gh label create remind --color FFC0CB --description "抽奖提醒" --force || true
+          TITLE="$(jq -r .title .out/digest.json)"
+          gh issue create --title "$TITLE" --body-file .out/digest.md --label remind

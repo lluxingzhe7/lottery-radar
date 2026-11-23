@@ -1,0 +1,37 @@
+name: 投递一个送福利活动
+description: 把刷到的抽奖/送福利帖子丢进来，自动打分入库并出现在手机网页上
+title: "[投稿] "
+labels: ["capture"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 链接
+      description: 帖子完整链接，https:// 开头
+      placeholder: https://www.xiaohongshu.com/explore/...
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: 正文或要求
+      description: 把帖子正文、参与要求、开奖说明粘进来，判断准不准全靠这段
+      placeholder: 关注+点赞+评论「想试试」，12月8日抽3位送护手霜，邮费到付…
+    validations:
+      required: true
+  - type: input
+    id: prize
+    attributes:
+      label: 奖品
+      placeholder: 护手霜 x3
+  - type: input
+    id: deadline
+    attributes:
+      label: 开奖日期
+      description: 可写 2026-12-08 / 12-08 / 12月8日 / 3天后，留空会从正文猜
+      placeholder: 12-08
+  - type: input
+    id: author
+    attributes:
+      label: 博主
+      placeholder: 某某

@@ -1,0 +1,8 @@
+_site/
+.out/
+node_modules/
+*.log
+data/*.bak
+.radar-*/
+demo-data/
+preview/

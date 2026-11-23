@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "platforms": {
+    "xiaohongshu": {
+      "label": "小红书",
+      "prefix": "xhs",
+      "hosts": [
+        "xiaohongshu.com",
+        "xhslink.com"
+      ]
+    },
+    "douyin": {
+      "label": "抖音",
+      "prefix": "dy",
+      "hosts": [
+        "douyin.com",
+        "iesdouyin.com"
+      ]
+    },
+    "other": {
+      "label": "其他平台",
+      "prefix": "oth",
+      "hosts": []
+    }
+  },
+  "kinds": {
+    "lottery": "抽奖送福利",
+    "seat": "名额/试用",
+    "coupon": "优惠券/羊毛",
+    "other": "其他"
+  },
+  "statuses": {
+    "pending": "待参与",
+    "joined": "已参与",
+    "awaiting": "待开奖",
+    "won": "已中奖",
+    "lost": "未中",
+    "claimed": "已领奖",
+    "skipped": "已放弃"
+  },
+  "scoring": {
+    "base": 50,
+    "vetoCap": 25,
+    "thresholds": {
+      "trust": 75,
+      "doubt": 50
+    },
+    "vetoes": [
+      {
+        "id": "wechat",
+        "label": "要求加微信/进群/私信领",
+        "points": 35,
+        "pattern": "加\\s*(微信|v信|vx|v\\b)|进群|入群|群内|私信我领|加我好友|加好友领"
+      },
+      {
+        "id": "postage",
+        "label": "要你付邮费/运费",
+        "points": 30,
+        "pattern": "付邮费|邮费自理|自理邮费|运费自理|邮费到付|自付运费"
+      },
+      {
+        "id": "prepay",
+        "label": "要求先付款/押金/保证金",
+        "points": 35,
+        "pattern": "垫付|押金|保证金|手续费|先付款|先转账|收款码|扫码付款"
+      },
+      {
+        "id": "task",
+        "label": "要求刷单/做任务/助力",
+        "points": 30,
+        "pattern": "刷单|做任务|返利|佣金|助力|砍一刀|拼团返"
+      },
+      {
+        "id": "private",
+        "label": "引导私下交易/脱离平台",
+        "points": 25,
+        "pattern": "私下交易|脱离平台|微信转账|支付宝转账|走线下"
+      }
+    ],
+    "risks": [
+      {
+        "id": "external",
+        "label": "跳到第三方小程序/公众号抽奖",
+        "points": 15,
+        "pattern": "小程序|公众号|抽奖助手|第三方平台"
+      },
+      {
+        "id": "app",
+        "label": "要求下载APP/注册/实名",
+        "points": 12,
+        "pattern": "下载\\s*APP|下载软件|注册账号|实名认证"
+      },
+      {
+        "id": "unlimited",
+        "label": "开奖没有固定日期",
+        "points": 15,
+        "pattern": "满\\s*\\d+\\s*人开奖|人满开奖|人数达标|择日开奖|开奖时间待定|后续通知"
+      },
+      {
+        "id": "privacy",
+        "label": "要求填写地址/身份证等隐私",
+        "points": 8,
+        "pattern": "收货地址|填写地址|身份证号|银行卡号"
+      }
+    ],
+    "bonuses": [
+      {
+        "id": "official",
+        "label": "提到官方/旗舰店/品牌方",
+        "points": 10,
+        "pattern": "官方|旗舰店|品牌方|官方账号"
+      },
+      {
+        "id": "history",
+        "label": "有往期中奖公示",
+        "points": 12,
+        "pattern": "往期中奖|中奖名单|已开奖|上期开奖|公示"
+      },
+      {
+        "id": "inplatform",
+        "label": "平台内评论区/转发抽奖",
+        "points": 8,
+        "pattern": "评论区抽|评论抽奖|转发抽奖|评论区揪|平台抽奖"
+      },
+      {
+        "id": "date",
+        "label": "写明了开奖日期",
+        "points": 8,
+        "pattern": "\\d{1,2}\\s*月\\s*\\d{1,2}\\s*[日号]|\\d{4}-\\d{1,2}-\\d{1,2}"
+      },
+      {
+        "id": "ship",
+        "label": "包邮/顺丰",
+        "points": 6,
+        "pattern": "包邮|顺丰"
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "key": "follow",
+      "label": "关注博主",
+      "pattern": "关注"
+    },
+    {
+      "key": "like",
+      "label": "点赞",
+      "pattern": "点赞|点个赞|赞一下|三连"
+    },
+    {
+      "key": "save",
+      "label": "收藏",
+      "pattern": "收藏"
+    },
+    {
+      "key": "comment",
+      "label": "评论留言",
+      "pattern": "评论|留言"
+    },
+    {
+      "key": "share",
+      "label": "转发/分享",
+      "pattern": "转发|分享|扩散"
+    },
+    {
+      "key": "mention",
+      "label": "@好友",
+      "pattern": "@\\s*好友|艾特|@好友"
+    },
+    {
+      "key": "topic",
+      "label": "带话题标签",
+      "pattern": "话题|#"
+    },
+    {
+      "key": "dm",
+      "label": "私信博主",
+      "pattern": "私信"
+    },
+    {
+      "key": "group",
+      "label": "进群/加群",
+      "pattern": "进群|入群"
+    },
+    {
+      "key": "app",
+      "label": "下载APP/注册",
+      "pattern": "下载\\s*APP|下载软件|注册"
+    },
+    {
+      "key": "screenshot",
+      "label": "截图留存",
+      "pattern": "截图"
+    },
+    {
+      "key": "verify",
+      "label": "实名认证",
+      "pattern": "实名|身份证"
+    }
+  ],
+  "templates": {
+    "comment": {
+      "xiaohongshu": [
+        "已关注+点赞+收藏啦～蹲一个名额，谢谢博主送福利 🌸",
+        "关注点赞收藏都安排好了，来蹲一个，博主大气～",
+        "三连已到，蹲住！希望这次好运轮到我 🙌"
+      ],
+      "douyin": [
+        "已关注+点赞，评论区蹲一个，谢谢老板送福利～",
+        "关注点赞安排上了，坐等开奖，好运来！",
+        "已三连，蹲一个名额，祝老板生意兴隆～"
+      ],
+      "other": [
+        "已按要求参与，蹲一个名额，谢谢～"
+      ]
+    },
+    "dm": "博主您好～我看到您在【{title}】活动的开奖名单里有我，请问领取方式是怎样的呀？麻烦了～"
+  }
+}

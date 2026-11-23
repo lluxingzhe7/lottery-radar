@@ -1,0 +1,46 @@
+name: 投稿入库
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  capture:
+    if: "contains(github.event.issue.labels.*.name, 'capture') || startsWith(github.event.issue.title, '[投稿]')"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 解析投稿并入库
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: node scripts/issue-capture.mjs
+      - name: 提交台账
+        run: |
+          git config user.name "lottery-radar-bot"
+          git config user.email "lottery-radar-bot@users.noreply.github.com"
+          git add -A data config
+          if git diff --cached --quiet; then
+            echo "台账没有变化"
+          else
+            git commit -m "capture: issue #${{ github.event.issue.number }}"
+            git push
+          fi
+      - name: 回帖并关单
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment "${{ github.event.issue.number }}" --body-file .out/comment.md
+          if [ "$(jq -r .ok .out/result.json)" = "true" ]; then
+            gh issue close "${{ github.event.issue.number }}"
+          fi

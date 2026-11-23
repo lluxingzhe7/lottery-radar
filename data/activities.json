@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-23T15:22:58.504Z",
+  "seq": {
+    "xhs": 1
+  },
+  "activities": [
+    {
+      "id": "xhs-20261123-01",
+      "sample": true,
+      "url": "https://www.xiaohongshu.com/explore/sample000000000000",
+      "platform": "xiaohongshu",
+      "kind": "lottery",
+      "title": "【示例数据】官方旗舰店抽10位送正装，价值298",
+      "author": "示例博主",
+      "prize": "正装 x10",
+      "deadline": "2026-12-01",
+      "status": "pending",
+      "score": 96,
+      "level": "可信",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "official",
+          "label": "提到官方/旗舰店/品牌方",
+          "points": 10
+        },
+        {
+          "kind": "bonus",
+          "id": "history",
+          "label": "有往期中奖公示",
+          "points": 12
+        },
+        {
+          "kind": "bonus",
+          "id": "date",
+          "label": "写明了开奖日期",
+          "points": 8
+        },
+        {
+          "kind": "bonus",
+          "id": "ship",
+          "label": "包邮/顺丰",
+          "points": 6
+        },
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "like",
+          "label": "点赞",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "品牌官方旗舰店活动，关注+点赞+评论区留言想要的色号，抽10位送正装一瓶，价值298元，全国包邮，12月1日开奖，名单评论区置顶公示。",
+      "notes": "这是一条示例数据，用来演示格式，可以删掉：node radar.mjs remove xhs-20261123-01 --yes",
+      "fetch": null,
+      "createdAt": "2026-11-23T14:30:00.000Z",
+      "updatedAt": "2026-11-23T15:16:54.379Z",
+      "events": [
+        {
+          "at": "2026-11-23T14:30:00.000Z",
+          "type": "created",
+          "detail": "示例数据"
+        },
+        {
+          "at": "2026-11-23T15:16:48.127Z",
+          "type": "rescore",
+          "detail": "重新打分 34 可疑"
+        },
+        {
+          "at": "2026-11-23T15:16:54.379Z",
+          "type": "edit",
+          "detail": "title,desc,prize,deadline"
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": 298,
+          "label": "约 298 元，算贵的"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      }
+    }
+  ]
+}

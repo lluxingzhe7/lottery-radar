@@ -1,0 +1,14 @@
+{
+  "name": "lottery-radar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "半自动抽奖/送福利情报台：录入、核实、列清单、生成文案、盯开奖",
+  "bin": { "radar": "./radar.mjs" },
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "radar": "node radar.mjs",
+    "list": "node radar.mjs list",
+    "due": "node radar.mjs due"
+  }
+}
