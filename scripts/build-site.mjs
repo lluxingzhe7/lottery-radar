@@ -85,13 +85,15 @@ const items = (store.activities || []).map((a) => {
       : null,
     verdictKey: a.prizeEval?.verdict?.key || 'judge',
     sample: !!a.sample,
+    source: a.source || 'manual',
+    auto: a.source === 'auto',
     createdAt: a.createdAt || '',
   };
 });
 
 // 筛掉的和可疑的默认不上页面：只有当它已经参与/中奖时还留着，方便追开奖和领奖
 const visible = items.filter((it) => {
-  const messy = it.verdictKey === 'drop' || it.level === '可疑';
+  const messy = it.auto ? it.verdictKey === 'drop' : it.verdictKey === 'drop' || it.level === '可疑';
   const keepIfInvolved = it.status === 'joined' || it.status === 'awaiting' || it.status === 'won' || it.status === 'claimed';
   return !messy || keepIfInvolved;
 });
