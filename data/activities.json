@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T16:00:25.728Z",
+  "updatedAt": "2026-11-23T16:04:38.254Z",
   "seq": {
     "xhs": 1,
-    "bili": 4
+    "bili": 8
   },
   "activities": [
     {
@@ -118,6 +118,262 @@
           "reasons": []
         }
       }
+    },
+    {
+      "id": "bili-20261123-05",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117649455519418",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "抽奖 就是抽奖 老葛的粉丝福利时间！",
+      "author": "聚航FPV-老葛",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "抽奖 就是抽奖 老葛的粉丝福利时间！\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-23T16:04:38.110Z",
+      "updatedAt": "2026-11-23T16:04:38.116Z",
+      "events": [
+        {
+          "at": "2026-11-23T16:04:38.110Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261123-06",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117652072696405",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "【抽奖】Ps5+GTA6抽奖送，万元奖品等你来拿～",
+      "author": "孟令曦",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "【抽奖】Ps5+GTA6抽奖送，万元奖品等你来拿～\n【抽奖】Ps5+GTA6抽奖送，万元奖品等你来拿～",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-23T16:04:38.159Z",
+      "updatedAt": "2026-11-23T16:04:38.165Z",
+      "events": [
+        {
+          "at": "2026-11-23T16:04:38.159Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261123-07",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117655092663800",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "🎁【11.21】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "author": "你的抽奖工具人",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "🎁【11.21】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁\n🎁【11.21】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-23T16:04:38.206Z",
+      "updatedAt": "2026-11-23T16:04:38.211Z",
+      "events": [
+        {
+          "at": "2026-11-23T16:04:38.206Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261123-08",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117660511705311",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "🎁【11.22】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "author": "你的抽奖工具人",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "🎁【11.22】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁\n🎁【11.22】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-23T16:04:38.253Z",
+      "updatedAt": "2026-11-23T16:04:38.259Z",
+      "events": [
+        {
+          "at": "2026-11-23T16:04:38.253Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
     }
   ]
 }
