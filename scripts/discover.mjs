@@ -9,6 +9,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DRY = process.argv.includes('--dry');
 const VERBOSE = process.argv.includes('--verbose');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function readJson(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return fallback; }
@@ -55,13 +56,28 @@ async function getJson(url, headers) {
   return { status: r.status, json, text };
 }
 
+let biliCookie = null;
+async function biliCookieHeader() {
+  if (biliCookie !== null) return biliCookie;
+  try {
+    const r = await fetch('https://api.bilibili.com/x/frontend/finger/spi', { headers: { 'User-Agent': UA, Referer: 'https://www.bilibili.com/' } });
+    const j = await r.json();
+    const b3 = j && j.data && j.data.b_3;
+    const b4 = j && j.data && j.data.b_4;
+    biliCookie = b3 ? 'buvid3=' + b3 + (b4 ? '; buvid4=' + b4 : '') : '';
+  } catch (e) { biliCookie = ''; }
+  return biliCookie;
+}
+
 async function fromBilibili(keywords) {
   const out = [];
+  const cookie = await biliCookieHeader();
   for (const kw of keywords) {
+    await sleep(1500);
     try {
       const url = 'https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=' + encodeURIComponent(kw) + '&page=1';
-      const { status, json } = await getJson(url, { Referer: 'https://search.bilibili.com/' });
-      if (!json || json.code !== 0) { if (VERBOSE) console.log('bili 失败', kw, status); continue; }
+      const { status, json } = await getJson(url, { Referer: 'https://search.bilibili.com/', Cookie: cookie });
+      if (!json || json.code !== 0) { if (VERBOSE) console.log('bili 失败', kw, status, json && json.code); continue; }
       for (const it of (json.data && json.data.result) || []) {
         const title = strip(it.title);
         const desc = strip(it.description);
@@ -86,7 +102,7 @@ async function fromWeibo(keywords) {
     try {
       const url = 'https://m.weibo.cn/api/container/getIndex?containerid=' + encodeURIComponent('100103type=1&q=' + kw) + '&page_type=searchall';
       const { status, json } = await getJson(url, { Referer: 'https://m.weibo.cn/' });
-      if (!json || !json.data) { if (VERBOSE) console.log('weibo 跳过', kw, status); continue; }
+      if (!json || !json.data) { if (VERBOSE) console.log('weibo 跳过', kw, status, JSON.stringify(json).slice(0, 120)); continue; }
       const cards = json.data.cards || [];
       for (const c of cards) {
         const mb = c.mblog || (c.card_group && c.card_group[0] && c.card_group[0].mblog);
@@ -137,17 +153,27 @@ if (autoToday >= dailyCap) {
 
 const found = [];
 const seen = new Set();
+const knownUrls = new Set((db0.activities || []).map((a) => String(a.url || '').split('?')[0]));
+
 function pushAll(list) {
   for (const c of list) {
     const key = c.url.split('?')[0];
-    if (seen.has(key)) continue;
+    if (seen.has(key) || knownUrls.has(key)) continue;
     seen.add(key);
     found.push(c);
   }
 }
 
-if ((cfg.sources || {}).bilibili !== false) pushAll(await fromBilibili(cfg.keywords.bilibili || []));
-if ((cfg.sources || {}).weibo !== false) pushAll(await fromWeibo(cfg.keywords.weibo || []));
+// 每轮只查其中 2 个关键词，避免频繁请求被平台限流
+function rotate(list) {
+  if (!list.length) return [];
+  const bucket = Math.floor(Date.now() / 300000) % list.length;
+  const picked = [list[bucket], list[(bucket + 1) % list.length]];
+  return picked.filter((v, i) => picked.indexOf(v) === i);
+}
+
+if ((cfg.sources || {}).bilibili !== false) pushAll(await fromBilibili(rotate(cfg.keywords.bilibili || [])));
+if ((cfg.sources || {}).weibo !== false) pushAll(await fromWeibo(rotate(cfg.keywords.weibo || [])));
 
 console.log('候选：' + found.length + ' 条');
 
