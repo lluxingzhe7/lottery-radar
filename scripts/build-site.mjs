@@ -56,6 +56,14 @@ function appUrlFor(a) {
     const m = u.match(/\/video\/(BV[0-9A-Za-z]+)/) || u.match(/\/video\/av(\d+)/);
     if (m) return 'bilibili://video/' + m[1];
   }
+  if (a.platform === 'douyin') {
+    const m = u.match(/\/video\/(\d{6,})/) || u.match(/[?&]vid=(\d{6,})/);
+    if (m) return 'snssdk1128://aweme/detail/' + m[1];
+  }
+  if (a.platform === 'xiaohongshu') {
+    const m = u.match(/\/(?:explore|discovery\/item)\/([0-9a-f]{16,})/i);
+    if (m) return 'xhsdiscover://item/' + m[1];
+  }
   return '';
 }
 
