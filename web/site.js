@@ -66,11 +66,17 @@
     var lvlClass = it.level === '可信' ? 'trust' : (it.level === '可疑' ? 'bad' : 'doubt');
     var platClass = it.platClass || 'oth';
     var done = localJoined(it);
+    var soon = typeof it.daysLeft === 'number' && it.daysLeft <= 2;
     var dl = '';
-    if (it.deadlineLabel) {
-      var soon = typeof it.daysLeft === 'number' && it.daysLeft <= 2;
+    if (it.deadlineLabel && it.status === 'pending' && !done) {
       dl = '<span class="dl' + (soon ? ' soon' : '') + '">' + esc(it.deadlineLabel) + '</span>';
     }
+    var involved = it.status !== 'pending' || done;
+    var dlBig = involved
+      ? '<p class="dlbig' + (soon ? ' soon' : '') + '">' +
+          (it.deadlineLabel ? '🎯 开奖 ' + esc(it.deadlineLabel) : '🎯 开奖时间没写，去原帖确认一下') +
+        '</p>'
+      : '';
     var reqs = (it.requirements || []).map(function (r) {
       return '<span class="req' + (r.done ? ' done' : '') + '">' + (r.done ? '✓ ' : '') + esc(r.label) + '</span>';
     }).join('');
@@ -90,7 +96,9 @@
       ? '<details class="more"><summary>看评论文案</summary><pre class="comment">' + esc(it.comment) + '</pre></details>'
       : '';
     var appBtn = it.appUrl
-      ? '<a class="btn" href="' + esc(it.appUrl) + '">在 App 打开</a>'
+      ? (it.comment
+          ? '<button class="btn" data-openapp="' + esc(it.id) + '">复制评论并开 App</button>'
+          : '<a class="btn" href="' + esc(it.appUrl) + '">在 App 打开</a>')
       : '';
     var joinBtn = done
       ? '<button class="btn ghost" data-join="' + esc(it.id) + '">取消已参与</button>'
@@ -105,6 +113,7 @@
         '</div>' +
         '<h2>' + esc(it.title) + '</h2>' +
         '<p class="meta">' + (it.prize ? '🎁 ' + esc(it.prize) + ' · ' : '') + (it.author ? '@' + esc(it.author) + ' · ' : '') + esc(it.id) + '</p>' +
+        dlBig +
         prizeLine +
         (reqs ? '<div class="reqs">' + reqs + '</div>' : '') +
         warn +
@@ -112,7 +121,7 @@
         '<div class="actions">' +
           '<a class="btn primary" href="' + esc(it.url) + '" target="_blank" rel="noopener">打开原帖</a>' +
           appBtn +
-          (it.comment ? '<button class="btn" data-copy="' + esc(it.id) + '">复制评论</button>' : '') +
+          (it.comment && !it.appUrl ? '<button class="btn" data-copy="' + esc(it.id) + '">复制评论</button>' : '') +
           '<button class="btn" data-copyurl="' + esc(it.id) + '">复制链接</button>' +
           (it.status === 'pending' ? joinBtn : '') +
         '</div>' +
@@ -170,10 +179,18 @@
     render();
   });
   document.addEventListener('click', function (e) {
-    var t = e.target.closest('[data-s],[data-p],[data-copy],[data-copyurl],[data-join]');
+    var t = e.target.closest('[data-s],[data-p],[data-copy],[data-copyurl],[data-join],[data-openapp]');
     if (!t) return;
     if (t.dataset.s) { status = t.dataset.s; render(); return; }
     if (t.dataset.p) { plat = t.dataset.p; render(); return; }
+    if (t.dataset.openapp) {
+      var ia = items.find(function (x) { return x.id === t.dataset.openapp; });
+      if (ia) {
+        copy(ia.comment || '');
+        setTimeout(function () { location.href = ia.appUrl; }, 150);
+      }
+      return;
+    }
     if (t.dataset.copy) {
       var it = items.find(function (x) { return x.id === t.dataset.copy; });
       if (it) copy(it.comment);
