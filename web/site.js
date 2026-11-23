@@ -107,6 +107,7 @@
         '<div class="actions">' +
           '<a class="btn primary" href="' + esc(it.url) + '" target="_blank" rel="noopener">打开原帖</a>' +
           (it.comment ? '<button class="btn" data-copy="' + esc(it.id) + '">复制评论</button>' : '') +
+          '<button class="btn" data-copyurl="' + esc(it.id) + '">复制链接</button>' +
           (it.status === 'pending'
             ? '<button class="btn' + (done ? ' on' : '') + '" data-join="' + esc(it.id) + '">' + (done ? '已参与 ✓' : '标记已参与') + '</button>'
             : '') +
@@ -161,13 +162,18 @@
     render();
   });
   document.addEventListener('click', function (e) {
-    var t = e.target.closest('[data-s],[data-p],[data-copy],[data-join]');
+    var t = e.target.closest('[data-s],[data-p],[data-copy],[data-copyurl],[data-join]');
     if (!t) return;
     if (t.dataset.s) { status = t.dataset.s; render(); return; }
     if (t.dataset.p) { plat = t.dataset.p; render(); return; }
     if (t.dataset.copy) {
       var it = items.find(function (x) { return x.id === t.dataset.copy; });
       if (it) copy(it.comment);
+      return;
+    }
+    if (t.dataset.copyurl) {
+      var iu = items.find(function (x) { return x.id === t.dataset.copyurl; });
+      if (iu) copy(iu.url);
       return;
     }
     if (t.dataset.join) {
