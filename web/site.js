@@ -189,7 +189,7 @@
       if (local[id]) { delete local[id]; } else { local[id] = true; }
       saveLocal();
       render();
-      toast(local[id] ? '已收进「已参与」。有空去 issue 评论 /参与 ' + id + ' 写回台账' : '已取消标记');
+      toast(local[id] ? '已收进「已参与」' : '已取消标记');
     }
   });
   render();
