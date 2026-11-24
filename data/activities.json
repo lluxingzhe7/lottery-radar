@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T13:09:34.259Z",
+  "updatedAt": "2026-11-24T23:01:42.094Z",
   "seq": {
     "xhs": 1,
-    "bili": 16
+    "bili": 20
   },
   "activities": [
     {
@@ -930,6 +930,304 @@
       "events": [
         {
           "at": "2026-11-24T13:09:34.259Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261124-17",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117671634934178",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "cfm送福利，怒喷既要又要的某鱼工作室脚本代抢野狗",
+      "author": "萝卜爱吃大萝卜",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "cfm送福利，怒喷既要又要的某鱼工作室脚本代抢野狗\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-24T23:01:41.997Z",
+      "updatedAt": "2026-11-24T23:01:42.002Z",
+      "events": [
+        {
+          "at": "2026-11-24T23:01:41.997Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261124-18",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117624759389207",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "【宠粉福利】10000元现金红包抽奖，欧皇试炼等你参加！",
+      "author": "SPlusTech",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 70,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "official",
+          "label": "提到官方/旗舰店/品牌方",
+          "points": 10
+        },
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": 10000,
+          "label": "约 10000 元，算贵的"
+        },
+        "category": {
+          "key": "cash",
+          "label": "现金/红包",
+          "risk": false
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "【宠粉福利】10000元现金红包抽奖，欧皇试炼等你参加！\n双十一刚结束，10000元现金红包替大家回回血。互动抽奖，官方工具，欢迎大家参与。最近行情挺迷的，各种不确定性拉满，就很难判断。先祝大家好运吧，只能走一步看一步了~",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-24T23:01:42.029Z",
+      "updatedAt": "2026-11-24T23:01:42.033Z",
+      "events": [
+        {
+          "at": "2026-11-24T23:01:42.029Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261124-19",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117659102484449",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "此视频是个免费抽奖5个名额",
+      "author": "龙飞科技数码",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "此视频是个免费抽奖5个名额\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-24T23:01:42.063Z",
+      "updatedAt": "2026-11-24T23:01:42.067Z",
+      "events": [
+        {
+          "at": "2026-11-24T23:01:42.063Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261124-20",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117511982941876",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "【开抽】总价值3w+！抽iPhone18 Pro Max！还抽苹果华为耳机潮玩盲盒B站大会员！免费抽！免费送！",
+      "author": "流量卡敖叔",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 15,
+      "level": "可疑",
+      "hits": [
+        {
+          "kind": "risk",
+          "id": "valueLow",
+          "label": "奖品太便宜",
+          "points": 25
+        },
+        {
+          "kind": "risk",
+          "id": "drop",
+          "label": "按你的筛选规则建议筛掉",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "low",
+          "amount": 3,
+          "label": "约 3 元，太便宜"
+        },
+        "category": {
+          "key": "digital",
+          "label": "数码/家电",
+          "risk": false
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "drop",
+          "label": "筛掉",
+          "reasons": [
+            "太便宜，凑热闹不值得"
+          ]
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "【开抽】总价值3w+！抽iPhone18 Pro Max！还抽苹果华为耳机潮玩盲盒B站大会员！免费抽！免费送！\n11.26开奖，敖叔今年争取到最好的奖品了，都来参与下吧！！",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-24T23:01:42.094Z",
+      "updatedAt": "2026-11-24T23:01:42.099Z",
+      "events": [
+        {
+          "at": "2026-11-24T23:01:42.094Z",
           "type": "created",
           "detail": "录入"
         }
