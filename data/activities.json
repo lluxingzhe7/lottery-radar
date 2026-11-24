@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T02:51:57.360Z",
+  "updatedAt": "2026-11-24T13:09:34.259Z",
   "seq": {
     "xhs": 1,
-    "bili": 12
+    "bili": 16
   },
   "activities": [
     {
@@ -661,6 +661,275 @@
       "events": [
         {
           "at": "2026-11-24T02:51:57.360Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261124-13",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117666450773681",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "🎁【11.23】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "author": "你的抽奖工具人",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "🎁【11.23】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁\n🎁【11.23】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-24T13:09:34.131Z",
+      "updatedAt": "2026-11-24T13:09:34.137Z",
+      "events": [
+        {
+          "at": "2026-11-24T13:09:34.131Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261124-14",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117506396133013",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "十万粉抽奖！iPhone 18 Pro直接送！",
+      "author": "漂浪的星",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "share",
+          "label": "转发/分享",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "十万粉抽奖！iPhone 18 Pro直接送！\n送iPhone 18 Pro！十万粉抽奖来了，点我主页置顶动态转发关注即可参加",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-24T13:09:34.176Z",
+      "updatedAt": "2026-11-24T13:09:34.182Z",
+      "events": [
+        {
+          "at": "2026-11-24T13:09:34.176Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261124-15",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av115837633697468",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "小up如何评论区抽奖",
+      "author": "枫光子豪",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 58,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "inplatform",
+          "label": "平台内评论区/转发抽奖",
+          "points": 8
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "小up如何评论区抽奖\n帮助到你的话，就请点个关注哦！",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-24T13:09:34.220Z",
+      "updatedAt": "2026-11-24T13:09:34.225Z",
+      "events": [
+        {
+          "at": "2026-11-24T13:09:34.220Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261124-16",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av116136637174100",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "b站互动抽奖工具",
+      "author": "ksjsnsmo",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "b站互动抽奖工具\nodjeg/BiliHelper: 你的哔哩哔哩工具集合",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-24T13:09:34.259Z",
+      "updatedAt": "2026-11-24T13:09:34.266Z",
+      "events": [
+        {
+          "at": "2026-11-24T13:09:34.259Z",
           "type": "created",
           "detail": "录入"
         }
