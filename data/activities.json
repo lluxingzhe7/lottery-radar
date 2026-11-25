@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T23:01:42.094Z",
+  "updatedAt": "2026-11-25T05:24:12.740Z",
   "seq": {
     "xhs": 1,
-    "bili": 20
+    "bili": 24
   },
   "activities": [
     {
@@ -1228,6 +1228,289 @@
       "events": [
         {
           "at": "2026-11-24T23:01:42.094Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261125-21",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av722317288",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "微信小程序抽奖到底能不能中？多久能中？多少次能中？能中多少？",
+      "author": "烽火戏诸侯-芮",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 35,
+      "level": "可疑",
+      "hits": [
+        {
+          "kind": "risk",
+          "id": "external",
+          "label": "跳到第三方小程序/公众号抽奖",
+          "points": 15
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "微信小程序抽奖到底能不能中？多久能中？多少次能中？能中多少？\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-25T05:24:12.621Z",
+      "updatedAt": "2026-11-25T05:24:12.626Z",
+      "events": [
+        {
+          "at": "2026-11-25T05:24:12.621Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261125-22",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117641905703935",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "【抽奖送手机】iPhone17免费送给你！欧皇就是你",
+      "author": "痛点Lab",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 60,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": null,
+          "label": "高价值品类（手机），具体价格待核"
+        },
+        "category": {
+          "key": "digital",
+          "label": "数码/家电",
+          "risk": false
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "【抽奖送手机】iPhone17免费送给你！欧皇就是你\n抽奖直达链接：https://b23.tv/FC1scrw",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-25T05:24:12.662Z",
+      "updatedAt": "2026-11-25T05:24:12.668Z",
+      "events": [
+        {
+          "at": "2026-11-25T05:24:12.662Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261125-23",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117665024706371",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "[抽奖啦]显卡涨了？内存、固态崩了？抽奖白送！主打一个送！",
+      "author": "LANGHIAM浪险电竞",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "[抽奖啦]显卡涨了？内存、固态崩了？抽奖白送！主打一个送！",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-25T05:24:12.701Z",
+      "updatedAt": "2026-11-25T05:24:12.706Z",
+      "events": [
+        {
+          "at": "2026-11-25T05:24:12.701Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261125-24",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117665846790046",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "致敬3款皮肤齐发 德莱文2种获取方式抽奖晚10多天",
+      "author": "LOLM橙子",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "致敬3款皮肤齐发 德莱文2种获取方式抽奖晚10多天",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-25T05:24:12.740Z",
+      "updatedAt": "2026-11-25T05:24:12.745Z",
+      "events": [
+        {
+          "at": "2026-11-25T05:24:12.740Z",
           "type": "created",
           "detail": "录入"
         }
