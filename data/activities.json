@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T05:24:12.740Z",
+  "updatedAt": "2026-11-25T15:55:07.748Z",
   "seq": {
     "xhs": 1,
-    "bili": 24
+    "bili": 28
   },
   "activities": [
     {
@@ -1511,6 +1511,275 @@
       "events": [
         {
           "at": "2026-11-25T05:24:12.740Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261125-25",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117665175701513",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "关注小王并看十秒钟视频，可以领花嫁头像框和一个皮肤碎片，限量的，皮肤碎片余量不多，还可以抽奖",
+      "author": "探灵寻秦",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "关注小王并看十秒钟视频，可以领花嫁头像框和一个皮肤碎片，限量的，皮肤碎片余量不多，还可以抽奖\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-25T15:55:07.606Z",
+      "updatedAt": "2026-11-25T15:55:07.612Z",
+      "events": [
+        {
+          "at": "2026-11-25T15:55:07.606Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261125-26",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av116662518941704",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "饥困荒野手游皮肤抽奖系统出金率这么高？连套装礼盒都抽到了",
+      "author": "老奥游戏",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 60,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": null,
+          "label": "高价值品类（套装），具体价格待核"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "饥困荒野手游皮肤抽奖系统出金率这么高？连套装礼盒都抽到了",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-25T15:55:07.652Z",
+      "updatedAt": "2026-11-25T15:55:07.658Z",
+      "events": [
+        {
+          "at": "2026-11-25T15:55:07.652Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261125-27",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117676047337758",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "这抽奖连折金票都不给吗？",
+      "author": "奇之行",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "这抽奖连折金票都不给吗？",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-25T15:55:07.700Z",
+      "updatedAt": "2026-11-25T15:55:07.706Z",
+      "events": [
+        {
+          "at": "2026-11-25T15:55:07.700Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261125-28",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117676500324650",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "(抽奖)挑战一天收2W卡牌收不够就送红碎!!!",
+      "author": "卡牌魔术师喵",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "(抽奖)挑战一天收2W卡牌收不够就送红碎!!!",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-25T15:55:07.748Z",
+      "updatedAt": "2026-11-25T15:55:07.753Z",
+      "events": [
+        {
+          "at": "2026-11-25T15:55:07.748Z",
           "type": "created",
           "detail": "录入"
         }
