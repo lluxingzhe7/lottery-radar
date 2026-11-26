@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T15:55:07.748Z",
+  "updatedAt": "2026-11-26T00:00:29.919Z",
   "seq": {
     "xhs": 1,
-    "bili": 28
+    "bili": 32
   },
   "activities": [
     {
@@ -1780,6 +1780,264 @@
       "events": [
         {
           "at": "2026-11-25T15:55:07.748Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-29",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117676819155598",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "猎头电竞送福利啦！",
+      "author": "1钱包老师",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "猎头电竞送福利啦！\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T00:00:29.775Z",
+      "updatedAt": "2026-11-26T00:00:29.781Z",
+      "events": [
+        {
+          "at": "2026-11-26T00:00:29.775Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-30",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117654002074971",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "粉丝福利 第1次发粉丝福利，包真包送#送东西#发福利 ～#蛋仔派对#惊魂夜#丧心护士海瑟",
+      "author": "游戏圆梦主播小铭",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "topic",
+          "label": "带话题标签",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "粉丝福利 第1次发粉丝福利，包真包送#送东西#发福利 ～#蛋仔派对#惊魂夜#丧心护士海瑟\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T00:00:29.823Z",
+      "updatedAt": "2026-11-26T00:00:29.829Z",
+      "events": [
+        {
+          "at": "2026-11-26T00:00:29.823Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-31",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117629037642934",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "粉丝福利 第1次发粉丝福利，包真包送#送东西#发福利#蛋仔派对#惊魂夜#丧心护士海瑟",
+      "author": "游戏圆梦主播小桦",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "topic",
+          "label": "带话题标签",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "粉丝福利 第1次发粉丝福利，包真包送#送东西#发福利#蛋仔派对#惊魂夜#丧心护士海瑟\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T00:00:29.870Z",
+      "updatedAt": "2026-11-26T00:00:29.876Z",
+      "events": [
+        {
+          "at": "2026-11-26T00:00:29.870Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-32",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117567230315440",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "【抽奖】可以耽误你10秒钟吗？",
+      "author": "AORUS技嘉电竞",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 60,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": null,
+          "label": "高价值品类（显示器），具体价格待核"
+        },
+        "category": {
+          "key": "digital",
+          "label": "数码/家电",
+          "risk": false
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "【抽奖】可以耽误你10秒钟吗？\n评论区置顶链接参与抽奖~ 奖品：M27Q2 QD ICE 电竞显示器；AORUS定制电竞椅",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T00:00:29.919Z",
+      "updatedAt": "2026-11-26T00:00:29.925Z",
+      "events": [
+        {
+          "at": "2026-11-26T00:00:29.919Z",
           "type": "created",
           "detail": "录入"
         }
