@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T08:02:57.733Z",
+  "updatedAt": "2026-11-26T18:22:45.523Z",
   "seq": {
     "xhs": 1,
-    "bili": 36
+    "bili": 40
   },
   "activities": [
     {
@@ -2319,6 +2319,310 @@
       "events": [
         {
           "at": "2026-11-26T08:02:57.733Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-37",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117681818699034",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "买5毛钱糖果喜中1克黄金？厂家：抽奖活动真实有效，全国共投放了6666份，已开奖100份",
+      "author": "极目新闻",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 42,
+      "level": "可疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "history",
+          "label": "有往期中奖公示",
+          "points": 12
+        },
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        },
+        {
+          "kind": "risk",
+          "id": "quality",
+          "label": "入口/上身物品来源不明",
+          "points": 20
+        },
+        {
+          "kind": "risk",
+          "id": "drop",
+          "label": "按你的筛选规则建议筛掉",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": null,
+          "label": "高价值品类（黄金），具体价格待核"
+        },
+        "category": {
+          "key": "food",
+          "label": "吃的/喝的",
+          "risk": true
+        },
+        "quality": {
+          "risk": true,
+          "label": "入口/上身物品，来源不明，质量没法保证"
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "drop",
+          "label": "筛掉",
+          "reasons": [
+            "入口/上身的东西，质量没法保证"
+          ]
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "买5毛钱糖果喜中1克黄金？厂家：抽奖活动真实有效，全国共投放了6666份，已开奖100份\n买5毛钱糖果喜中1克黄金？厂家：抽奖活动真实有效，全国共投放了6666份，已开奖100份",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T18:22:45.426Z",
+      "updatedAt": "2026-11-26T18:22:45.434Z",
+      "events": [
+        {
+          "at": "2026-11-26T18:22:45.426Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-38",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117649640000615",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "抽送一台小米手机 12月份手机大更新 iPhone安卓旗舰机推荐 现在正是入手的好时机 因为过年的时候会涨价 一加ace6 ace7 一加15 百元机",
+      "author": "夏沫莹呀南宁实体门店",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 60,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": null,
+          "label": "高价值品类（手机），具体价格待核"
+        },
+        "category": {
+          "key": "digital",
+          "label": "数码/家电",
+          "risk": false
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "抽送一台小米手机 12月份手机大更新 iPhone安卓旗舰机推荐 现在正是入手的好时机 因为过年的时候会涨价 一加ace6 ace7 一加15 百元机\n盆友圈经常更新机器现货哦，安卓，苹果都有，专业做机两年半了，（狗头保命），胃：xiamoying5590 支持淘机，回收手机置换，我夏沫莹自己验机标准很严格的！一直做好口碑， 给咱们的粉丝客户们做好保修服务。 才是至关重要的一点。拥有许多回头客户的！ 认真细节搞机。认准本人只有一个B站号！夏沫莹呀，名字。盆友圈会时不时给大家放漏好的机器。 并且一直支持闲鱼交易的，收来的手机也会去拆机看里面有没有动过，有没有维修过。这些我以前发过好多个视频去讲解了。有许多的客户都知道的。有防水在保的机不拆。",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T18:22:45.462Z",
+      "updatedAt": "2026-11-26T18:22:45.467Z",
+      "events": [
+        {
+          "at": "2026-11-26T18:22:45.462Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-39",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117682271689325",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "【粉丝福利】送钻码",
+      "author": "HoEsTc",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "【粉丝福利】送钻码\n老粉标签和带粉丝牌的粉丝还会独立开奖池，抽五位，抽中一个是两个钻码",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T18:22:45.494Z",
+      "updatedAt": "2026-11-26T18:22:45.498Z",
+      "events": [
+        {
+          "at": "2026-11-26T18:22:45.494Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-40",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117681097280334",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "周年庆抽奖（新奖池）",
+      "author": "蓝眼黑骑士",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "周年庆抽奖（新奖池）\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T18:22:45.523Z",
+      "updatedAt": "2026-11-26T18:22:45.528Z",
+      "events": [
+        {
+          "at": "2026-11-26T18:22:45.523Z",
           "type": "created",
           "detail": "录入"
         }
