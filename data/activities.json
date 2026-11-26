@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T00:00:29.919Z",
+  "updatedAt": "2026-11-26T08:02:57.733Z",
   "seq": {
     "xhs": 1,
-    "bili": 32
+    "bili": 36
   },
   "activities": [
     {
@@ -2038,6 +2038,287 @@
       "events": [
         {
           "at": "2026-11-26T00:00:29.919Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-33",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117675980232094",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "🎁【11.24】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "author": "你的抽奖工具人",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "🎁【11.24】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁\n🎁【11.25】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T08:02:57.606Z",
+      "updatedAt": "2026-11-26T08:02:57.613Z",
+      "events": [
+        {
+          "at": "2026-11-26T08:02:57.606Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-34",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117680443229476",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "【粉丝抽奖】送出价值400+元的吹米Brick Pro大全套！",
+      "author": "极客Kevin",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 70,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "official",
+          "label": "提到官方/旗舰店/品牌方",
+          "points": 10
+        },
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": 400,
+          "label": "约 400 元，算贵的"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "like",
+          "label": "点赞",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "share",
+          "label": "转发/分享",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "【粉丝抽奖】送出价值400+元的吹米Brick Pro大全套！\n给机友们发福利啦！本期抽出一位幸运机友，送出一套总价值400+元的 Trimui Brick Pro 大全套！ 【奖品清单】 Trimui Brick Pro 复古色（无卡版） 官方透明软壳 官方手柄包 第三方3D打印握把 以上奖品打包送给同一位粉丝机友！ 【抽奖规则】 本期为粉丝专属福利，参与抽奖需满足以下四个条件： ① 关注本账号 ② 点赞本期视频 ③ 评论本期视频 ④ 转发本期视频 四项条件缺一不可。 【开奖时间】 本期视频发布10天后开奖，届时将专门发布一期开奖节目，公开抽奖过程及中奖结果。",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T08:02:57.648Z",
+      "updatedAt": "2026-11-26T08:02:57.654Z",
+      "events": [
+        {
+          "at": "2026-11-26T08:02:57.648Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-35",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117665913965764",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "2000粉丝up主抽奖了！你就是欧皇",
+      "author": "老鱼玩过的东西多了",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "2000粉丝up主抽奖了！你就是欧皇",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T08:02:57.690Z",
+      "updatedAt": "2026-11-26T08:02:57.697Z",
+      "events": [
+        {
+          "at": "2026-11-26T08:02:57.690Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261126-36",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117677540711998",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "🎁【11.25】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "author": "你的抽奖工具人",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "🎁【11.25】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁\n🎁【11.25】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-26T08:02:57.733Z",
+      "updatedAt": "2026-11-26T08:02:57.739Z",
+      "events": [
+        {
+          "at": "2026-11-26T08:02:57.733Z",
           "type": "created",
           "detail": "录入"
         }
