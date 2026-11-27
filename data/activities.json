@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T18:22:45.523Z",
+  "updatedAt": "2026-11-27T01:51:27.552Z",
   "seq": {
     "xhs": 1,
-    "bili": 40
+    "bili": 44
   },
   "activities": [
     {
@@ -2623,6 +2623,262 @@
       "events": [
         {
           "at": "2026-11-26T18:22:45.523Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-41",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117559412130013",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "金铲铲盛世长安小小阿狸抽奖实录，不出意外大保底～",
+      "author": "小陈同学kg",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "金铲铲盛世长安小小阿狸抽奖实录，不出意外大保底～\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T01:51:27.450Z",
+      "updatedAt": "2026-11-27T01:51:27.455Z",
+      "events": [
+        {
+          "at": "2026-11-27T01:51:27.450Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-42",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117680845620614",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "今天抽奖有免费白嫖的让我看看大佬！",
+      "author": "0葛葛哟0",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "今天抽奖有免费白嫖的让我看看大佬！\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T01:51:27.483Z",
+      "updatedAt": "2026-11-27T01:51:27.488Z",
+      "events": [
+        {
+          "at": "2026-11-27T01:51:27.483Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-43",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117580182330072",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "送粉丝福利丨买皮服 丨快来关注我！！！（想破一千粉丝）mua!",
+      "author": "恐管大大大王",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "送粉丝福利丨买皮服 丨快来关注我！！！（想破一千粉丝）mua!\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T01:51:27.518Z",
+      "updatedAt": "2026-11-27T01:51:27.523Z",
+      "events": [
+        {
+          "at": "2026-11-27T01:51:27.518Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-44",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117680996616874",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "开箱一个从b站抽奖中的铭瑄b850m电竞之心，感谢鲤鱼大佬",
+      "author": "任意啪啪",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "开箱一个从b站抽奖中的铭瑄b850m电竞之心，感谢鲤鱼大佬\n@鲤鱼yjj 感谢大佬，兄弟们给大佬点点关注一起抽奖",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T01:51:27.552Z",
+      "updatedAt": "2026-11-27T01:51:27.558Z",
+      "events": [
+        {
+          "at": "2026-11-27T01:51:27.552Z",
           "type": "created",
           "detail": "录入"
         }
