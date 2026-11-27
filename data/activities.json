@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T10:20:05.096Z",
+  "updatedAt": "2026-11-27T19:33:18.619Z",
   "seq": {
     "xhs": 1,
-    "bili": 48
+    "bili": 49
   },
   "activities": [
     {
@@ -3168,6 +3168,67 @@
       "events": [
         {
           "at": "2026-11-27T10:20:05.096Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-49",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117683328653717",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "🎁【11.26】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "author": "你的抽奖工具人",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "🎁【11.26】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁\n🎁【11.26】🎁今日全部！抽奖合集！🎁评论区置顶传送门🎁每日更新🎁",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T19:33:18.619Z",
+      "updatedAt": "2026-11-27T19:33:18.624Z",
+      "events": [
+        {
+          "at": "2026-11-27T19:33:18.619Z",
           "type": "created",
           "detail": "录入"
         }
