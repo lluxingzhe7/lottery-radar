@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T01:51:27.552Z",
+  "updatedAt": "2026-11-27T10:20:05.096Z",
   "seq": {
     "xhs": 1,
-    "bili": 44
+    "bili": 48
   },
   "activities": [
     {
@@ -2879,6 +2879,295 @@
       "events": [
         {
           "at": "2026-11-27T01:51:27.552Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-45",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117665326697150",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "摊牌了！为了20万粉丝，我决定送一张RTX 5070！",
+      "author": "爱斯机魔人",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "摊牌了！为了20万粉丝，我决定送一张RTX 5070！\n注意 是参加置顶动态，不是这条视频哦！ Q群：573409497，抽奖直播回放会放Q群里。",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T10:20:05.005Z",
+      "updatedAt": "2026-11-27T10:20:05.009Z",
+      "events": [
+        {
+          "at": "2026-11-27T10:20:05.005Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-46",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117686365325638",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "抽奖免费送GTA6兑换码！",
+      "author": "日常熊DailyBear",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "抽奖免费送GTA6兑换码！\n抽奖免费送GTA6兑换码啦，小伙伴们可以去置顶动态参与抽奖",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T10:20:05.034Z",
+      "updatedAt": "2026-11-27T10:20:05.039Z",
+      "events": [
+        {
+          "at": "2026-11-27T10:20:05.034Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-47",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av116849249426367",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "超万元显示器大抽奖！ 七月回馈粉丝 5台显示器点击就送 总价值超万元",
+      "author": "屏心而论",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 60,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": null,
+          "label": "高价值品类（显示器），具体价格待核"
+        },
+        "category": {
+          "key": "digital",
+          "label": "数码/家电",
+          "risk": false
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "share",
+          "label": "转发/分享",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "超万元显示器大抽奖！ 七月回馈粉丝 5台显示器点击就送 总价值超万元\n参与方式： 关注@屏心而论+转发+评论此动态+ 即可参与 七月暑期显示器大抽奖来啦！ 这次我们整整抽出5台总价值超一万元的显示器，趁我们粉丝不多，概率更高哦",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T10:20:05.065Z",
+      "updatedAt": "2026-11-27T10:20:05.069Z",
+      "events": [
+        {
+          "at": "2026-11-27T10:20:05.065Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261127-48",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117686566657711",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "洛克王国回馈粉丝第五波抽奖！送兜帽小玉！送水蓝蓝小玉皮肤！预告春节送新年费！助力回归玩家！！非人哉联名氪金活动！！",
+      "author": "古娜拉绿大妈",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 20,
+      "level": "可疑",
+      "hits": [
+        {
+          "kind": "veto",
+          "id": "task",
+          "label": "要求刷单/做任务/助力",
+          "points": 30
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "洛克王国回馈粉丝第五波抽奖！送兜帽小玉！送水蓝蓝小玉皮肤！预告春节送新年费！助力回归玩家！！非人哉联名氪金活动！！\n快来加入我们吧~",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-27T10:20:05.096Z",
+      "updatedAt": "2026-11-27T10:20:05.101Z",
+      "events": [
+        {
+          "at": "2026-11-27T10:20:05.096Z",
           "type": "created",
           "detail": "录入"
         }
