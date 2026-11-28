@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-28T10:26:51.661Z",
+  "updatedAt": "2026-11-28T18:23:40.170Z",
   "seq": {
     "xhs": 1,
-    "bili": 57
+    "bili": 61
   },
   "activities": [
     {
@@ -3785,6 +3785,289 @@
       "events": [
         {
           "at": "2026-11-28T10:26:51.661Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-58",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117665897187596",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "福利免费送手机包邮，希望大家多多支持。",
+      "author": "手机数码哥",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 66,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "ship",
+          "label": "包邮/顺丰",
+          "points": 6
+        },
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": null,
+          "label": "高价值品类（手机），具体价格待核"
+        },
+        "category": {
+          "key": "digital",
+          "label": "数码/家电",
+          "risk": false
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "福利免费送手机包邮，希望大家多多支持。\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T18:23:40.064Z",
+      "updatedAt": "2026-11-28T18:23:40.069Z",
+      "events": [
+        {
+          "at": "2026-11-28T18:23:40.064Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-59",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117693680196160",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "沉浸式抽奖《资本礼包》梭哈系列",
+      "author": "潇洒走亿会",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "cloth",
+          "label": "服饰/箱包",
+          "risk": false
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "沉浸式抽奖《资本礼包》梭哈系列\n这东西分运气，运气不好像我前面全是金色破衣服，不要硬尝试",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T18:23:40.098Z",
+      "updatedAt": "2026-11-28T18:23:40.103Z",
+      "events": [
+        {
+          "at": "2026-11-28T18:23:40.098Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-60",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117694082847181",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "元梦之星：轻音派对，抽奖+实际装扮效果。没保底！终于欧了一回。",
+      "author": "佴九良",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "元梦之星：轻音派对，抽奖+实际装扮效果。没保底！终于欧了一回。\n轻音派对农场装扮",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T18:23:40.133Z",
+      "updatedAt": "2026-11-28T18:23:40.137Z",
+      "events": [
+        {
+          "at": "2026-11-28T18:23:40.133Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-61",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117692941993136",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "起号抽奖",
+      "author": "Kf漫雾",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "起号抽奖\n真的假的",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T18:23:40.170Z",
+      "updatedAt": "2026-11-28T18:23:40.174Z",
+      "events": [
+        {
+          "at": "2026-11-28T18:23:40.170Z",
           "type": "created",
           "detail": "录入"
         }
