@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T19:33:18.619Z",
+  "updatedAt": "2026-11-28T02:09:06.124Z",
   "seq": {
     "xhs": 1,
-    "bili": 49
+    "bili": 53
   },
   "activities": [
     {
@@ -3229,6 +3229,287 @@
       "events": [
         {
           "at": "2026-11-27T19:33:18.619Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-50",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117358840580930",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "【抽奖】苹果Macbook Neo、大疆pocket4、手柄，15个名额！快乐十一",
+      "author": "松鼠恶霸-",
+      "prize": "",
+      "deadline": "2026-12-15",
+      "status": "pending",
+      "score": 68,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "official",
+          "label": "提到官方/旗舰店/品牌方",
+          "points": 10
+        },
+        {
+          "kind": "bonus",
+          "id": "date",
+          "label": "写明了开奖日期",
+          "points": 8
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "share",
+          "label": "转发/分享",
+          "done": false,
+          "source": "text"
+        },
+        {
+          "key": "dm",
+          "label": "私信博主",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "【抽奖】苹果Macbook Neo、大疆pocket4、手柄，15个名额！快乐十一\n马上十万粉啦！苹果笔记本和大疆pocket免费送~ 等拿到官方抽奖资格，到时候再给大家来一波！ 本次抽奖奖品： 一等奖：MacBook Neo一台 二等奖：大疆Pocket4 一台 三等奖：飞智沙漠狐 10个 🎁参与方式：关注@松鼠恶霸- +评论+转发本动态，即可参与本次抽奖（必须满足关注评论转发才可参与） 抽奖截止时间：2026年12月15日，中奖后注意查看私信！中奖资格保留7天，逾期视为自动放弃 开奖方式：用B站大佬工具开奖，全程直播录像，且备份发布至站内，欢迎监督。 中奖人我将手动排查是否为机",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T02:09:06.001Z",
+      "updatedAt": "2026-11-28T02:09:06.007Z",
+      "events": [
+        {
+          "at": "2026-11-28T02:09:06.001Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-51",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117679973276193",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "24年抽奖抽多，大概转发了40多条，直接封了2年抽奖",
+      "author": "写意云轻",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "share",
+          "label": "转发/分享",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "24年抽奖抽多，大概转发了40多条，直接封了2年抽奖\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T02:09:06.041Z",
+      "updatedAt": "2026-11-28T02:09:06.047Z",
+      "events": [
+        {
+          "at": "2026-11-28T02:09:06.041Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-52",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117640966183590",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "恭喜小宝获得抽奖奖品——123云盘VIP周卡一张+小盘周边一份~",
+      "author": "123云盘",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "text"
+        }
+      ],
+      "text": "恭喜小宝获得抽奖奖品——123云盘VIP周卡一张+小盘周边一份~\n抽奖过程全程录屏，保证抽奖公开透明公平公正！点点关注！奖品多多，欢迎小宝们多多参与哦~",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T02:09:06.082Z",
+      "updatedAt": "2026-11-28T02:09:06.088Z",
+      "events": [
+        {
+          "at": "2026-11-28T02:09:06.082Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-53",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av648941240",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "互动抽奖机器人实在太逆天了。。。",
+      "author": "MontanaSheng",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "互动抽奖机器人实在太逆天了。。。\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T02:09:06.124Z",
+      "updatedAt": "2026-11-28T02:09:06.130Z",
+      "events": [
+        {
+          "at": "2026-11-28T02:09:06.124Z",
           "type": "created",
           "detail": "录入"
         }
