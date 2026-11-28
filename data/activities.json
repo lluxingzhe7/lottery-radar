@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-28T02:09:06.124Z",
+  "updatedAt": "2026-11-28T10:26:51.661Z",
   "seq": {
     "xhs": 1,
-    "bili": 53
+    "bili": 57
   },
   "activities": [
     {
@@ -3510,6 +3510,281 @@
       "events": [
         {
           "at": "2026-11-28T02:09:06.124Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-54",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117688194047659",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "“抽奖结果公布”",
+      "author": "-昼夜凌晨13点-",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "“抽奖结果公布”\n真的假的呀？",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T10:26:51.517Z",
+      "updatedAt": "2026-11-28T10:26:51.523Z",
+      "events": [
+        {
+          "at": "2026-11-28T10:26:51.517Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-55",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117687657174457",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "11000.00元！30万粉丝抽奖🎁 来不来！",
+      "author": "农民新八",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 60,
+      "level": "存疑",
+      "hits": [
+        {
+          "kind": "bonus",
+          "id": "valueHigh",
+          "label": "奖品算贵的",
+          "points": 10
+        }
+      ],
+      "prizeEval": {
+        "value": {
+          "level": "high",
+          "amount": 11000,
+          "label": "约 11000 元，算贵的"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "keep",
+          "label": "推荐",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "11000.00元！30万粉丝抽奖🎁 来不来！\n感谢各位的支持，300000不止是个数字，还代表了未来更多的可能性～我们会产出更多有意思的内容，也希望对大家选车购车帮上忙，哪怕一点点！",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T10:26:51.564Z",
+      "updatedAt": "2026-11-28T10:26:51.570Z",
+      "events": [
+        {
+          "at": "2026-11-28T10:26:51.564Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-56",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117690643514827",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "本周抽奖视频录像",
+      "author": "智者模玩",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "本周抽奖视频录像\n-",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T10:26:51.614Z",
+      "updatedAt": "2026-11-28T10:26:51.620Z",
+      "events": [
+        {
+          "at": "2026-11-28T10:26:51.614Z",
+          "type": "created",
+          "detail": "录入"
+        }
+      ],
+      "source": "auto"
+    },
+    {
+      "id": "bili-20261128-57",
+      "sample": false,
+      "url": "http://www.bilibili.com/video/av117680090645558",
+      "platform": "bilibili",
+      "kind": "lottery",
+      "title": "新赛季皮肤+器灵抽奖，又是欧皇的一集【元气骑士前传SS10】",
+      "author": "叫我小宾仔",
+      "prize": "",
+      "deadline": null,
+      "status": "pending",
+      "score": 50,
+      "level": "存疑",
+      "hits": [],
+      "prizeEval": {
+        "value": {
+          "level": "unknown",
+          "amount": null,
+          "label": "价值不明"
+        },
+        "category": {
+          "key": "other",
+          "label": "其他"
+        },
+        "quality": {
+          "risk": false,
+          "label": ""
+        },
+        "coupon": {
+          "isCoupon": false,
+          "restricted": false,
+          "label": ""
+        },
+        "verdict": {
+          "key": "judge",
+          "label": "待判断",
+          "reasons": []
+        }
+      },
+      "requirements": [
+        {
+          "key": "follow",
+          "label": "关注博主",
+          "done": false,
+          "source": "default"
+        },
+        {
+          "key": "comment",
+          "label": "评论留言",
+          "done": false,
+          "source": "default"
+        }
+      ],
+      "text": "新赛季皮肤+器灵抽奖，又是欧皇的一集【元气骑士前传SS10】\n这回抽奖绝了！",
+      "notes": "",
+      "fetch": null,
+      "createdAt": "2026-11-28T10:26:51.661Z",
+      "updatedAt": "2026-11-28T10:26:51.667Z",
+      "events": [
+        {
+          "at": "2026-11-28T10:26:51.661Z",
           "type": "created",
           "detail": "录入"
         }
